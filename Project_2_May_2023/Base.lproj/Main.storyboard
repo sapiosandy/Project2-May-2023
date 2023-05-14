@@ -16,18 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOS-so-Vvw">
-                                <rect key="frame" x="100" y="100" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOS-so-Vvw">
+                                <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6u-gK-CAm">
-                                <rect key="frame" x="202" y="230" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6u-gK-CAm">
+                                <rect key="frame" x="84.666666666666686" y="222" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ng3-DM-RMQ">
-                                <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
+                                <rect key="frame" x="84.666666666666686" y="366" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                             </button>
@@ -36,8 +36,8 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aOS-so-Vvw" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="KZ6-YJ-G80"/>
+                            <constraint firstItem="a6u-gK-CAm" firstAttribute="firstBaseline" secondItem="aOS-so-Vvw" secondAttribute="baseline" constant="22" symbolType="layoutAnchor" id="OKP-Ou-Iwf"/>
                             <constraint firstItem="ng3-DM-RMQ" firstAttribute="centerX" secondItem="a6u-gK-CAm" secondAttribute="centerX" id="exv-w0-jS1"/>
-                            <constraint firstItem="a6u-gK-CAm" firstAttribute="top" secondItem="aOS-so-Vvw" secondAttribute="bottom" constant="30" id="jPh-NQ-SYY"/>
                             <constraint firstItem="a6u-gK-CAm" firstAttribute="centerX" secondItem="aOS-so-Vvw" secondAttribute="centerX" id="nO6-Pp-pnA"/>
                             <constraint firstItem="ng3-DM-RMQ" firstAttribute="top" secondItem="a6u-gK-CAm" secondAttribute="bottom" constant="30" id="q5y-YY-W2v"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="aOS-so-Vvw" secondAttribute="top" constant="3" id="v6I-FJ-0NM"/>
